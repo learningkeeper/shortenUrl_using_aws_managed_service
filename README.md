@@ -28,7 +28,7 @@ Rate Limit: default 10,000 Per Account Per Region. (Soft Limit)
 Throttle limits: bucket limit 5000 fixed.
 2. For s3
 3,500 PUT/COPY/POST/DELETE or 5,500 GET/HEAD requests per second
-3. the hard limit for s3 is 5 TB so the data is persistent, we have to concern the how many user we serve.
+3. the hard limit for s3 is 5 TB so if the data is persistent, we have to concern the how many user we serve.
 
 
 ## For other solution and system design consideration
