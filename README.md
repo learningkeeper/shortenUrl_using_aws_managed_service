@@ -16,7 +16,7 @@ https://d37tkiq2smw4w3.cloudfront.net/admin/
 4. cloudfront for http method whitelist
 
 
-
+![image](./structure.png)
 
 ## The system is highly available and scalable via AWS managed service, 
 1. For API gateway limit 
