@@ -1,3 +1,4 @@
+[TOC]
 # URLShortener cloudformation
 ---
 
@@ -18,7 +19,9 @@ https://d37tkiq2smw4w3.cloudfront.net/admin/
 
 ![image](./structure.png)
 
-## The system is highly available and scalable via AWS managed service, 
+## The system is highly available and scalable via AWS managed service, we use aws provided service so we don't have to worry about the infra capacity under the hood. It's a suggested way for using cloud service as the system design basis.
+
+
 1. For API gateway limit 
 Rate Limit: default 10,000 Per Account Per Region. (Soft Limit)
 Throttle limits: bucket limit 5000 fixed.
